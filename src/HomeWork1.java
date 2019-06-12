@@ -1,23 +1,22 @@
 
-package variables;
-        import static java.lang.Math.*;
+
+
 public class HomeWork1 {
     public static void main(String[] args) {
 
         double celsius = 27;
-        double fahrenheit = 100;
-        double kalvin = 19;
+        double far = 100;
         double CelsiusToFar = (celsius * 9 / 5) - 32;
-        double FahrenheitToCelsius = (fahrenheit - 32) * 5/9;
+        double FahrenheitToCelsius = (far - 32) * 5/9;
         double CelsiusToKalvin = celsius + 273.15;
         System.out.println( "Celsius to Fahrenheit: " + CelsiusToFar);
         System.out.println("Fahrenheit to Celsius: " + FahrenheitToCelsius);
         System.out.println("Celsius to Kalvin: " + CelsiusToKalvin);
 
 
-        double meter = 8;
-        double MeterToInches = meter * 39.37;
-        double InchesToMeter = MeterToInches/meter;
+        double m = 43;
+        double MeterToInches = m * 41;
+        double InchesToMeter = MeterToInches/m;
         System.out.println("Meter in inches: " + MeterToInches);
         System.out.println("Inches to meter: " + InchesToMeter);
 
@@ -48,12 +47,12 @@ public class HomeWork1 {
         System.out.println("Seconds to minutes " + SecondsToMin);
 
         double years = 22;
-        double weeks = years*52.143;
-        double days = weeks*7;
+        double weeks = years * 52.143;
+        double days = weeks * 7;
         double hours = days * 24;
         double minutes = hours * 60;
         double seconds = minutes * 60;
-        System.out.printf("You live %f years, %f weeks, %f days, %f hours, %f minutes, %f seconds",years,weeks,days,hours,minutes,seconds);
+        System.out.printf("Вы живете %f лет, %f недель, %f дней, %f часов, %f минут, %f секунд",years,weeks,days,hours,minutes,seconds);
 
 
 
